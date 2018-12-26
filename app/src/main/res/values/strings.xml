@@ -1,0 +1,402 @@
+<resources>
+    <string name="app_name">"Don't Starve"</string>
+
+    <string-array name="recNames">
+        <item>미트볼 \n«Meatballs» </item>
+        <item>미트 스튜\n «Meaty Stew»</item>
+        <item>허니햄 \n«Honey Ham»</item>
+        <item>용과 파이 \n«Dragonpie»</item>
+        <item>베이컨 앤 에그 \n«Bacon and Eggs»</item>
+        <item>칠면조 정식 \n«Turkey Dinner»</item>
+        <item>개구리 다리 샌드위치 \n«Froggle Bunwich»</item>
+        <item>생선 튀김 \n«Fishticks»</item>
+        <item>피에로기 \n«Pieroji»</item>
+        <item>버터 머핀 \n«Butter Muffin»</item>
+    </string-array>
+
+    <string-array name="ingr1">
+        <item>요리법 : 고기 5이상 잔가지, 꿀, 만드레이크 금지</item>
+        <item>체력 : 3</item>
+        <item>허기 : 62.6</item>
+        <item>정신력 : 5</item>
+        <item>조리시간 : 15초</item>
+        <item>유통기한 : 10일</item>
+        <item>겹치기 갯수 : 40개</item>
+        <item>우선순위 : -1</item>
+        <item>디버그명칭 : meatballs</item>
+    </string-array>
+
+    <string-array name="ingr2">
+        <item>요리법 : 고기 3.0 이상 잔가지, 꿀, 만드레이크 금지</item>
+        <item>체력 : 12</item>
+        <item>허기 : 150</item>
+        <item>정신력 : 5</item>
+        <item>조리시간 : 15초</item>
+        <item>유통기한 : 10일</item>
+        <item>겹치기 갯수 : 40개</item>
+        <item>우선순위 : 0</item>
+        <item>디버그명칭 : bonestew</item>
+
+    </string-array>
+
+    <string-array name="ingr3">
+        <item>요리법 : 고기 2.0이상, 꿀, 잔가지, 두더지, 만드레이크-키다리새알 금지</item>
+        <item>체력 : 30</item>
+        <item>허기 : 75</item>
+        <item>정신럭 : 5</item>
+        <item>조리시간 : 40초</item>
+        <item>유통기한 : 15일</item>
+        <item>겹치기 갯수 : 40개</item>
+        <item>우선순위 : 2</item>
+        <item>디버그명칭 : "honeyham"</item>
+
+
+    </string-array>
+
+    <string-array name="ingr4">
+        <item>요리법 : 용과 1.0 이상, 고기, 만드레이크 금지</item>
+        <item>체력 : 40</item>
+        <item>허기 : 75</item>
+        <item>정신력 : 5</item>
+        <item>조리시간 : 40초</item>
+        <item>유통기한 : 15일</item>
+        <item>겹치기 갯수 : 40개</item>
+        <item>우선순위 : 1</item>
+        <item>디버그명칭 : "dragonpie"</item>
+
+    </string-array>
+
+    <string-array name="ingr5">
+        <item>요리법 :  고기 1.5 이상, 알 2.0 이상, 채소 금지</item>
+        <item>체력 : 20</item>
+        <item>허기 : 75</item>
+        <item>정신력 : 5</item>
+        <item>조리시간 : 40초</item>
+        <item>유통기한 : 20일</item>
+        <item>겹치기 갯수 : 40개</item>
+        <item>우선순위 : 10</item>
+        <item>디버그명칭 : baconeggs</item>
+
+    </string-array>
+
+    <string-array name="ingr6">
+        <item>요리법 : 닭다리 날것 2 + 고기 0.5 + 과일/채소 0.5</item>
+        <item>유통기한 : 6일</item>
+        <item>체력 : 20</item>
+        <item>허기 : 75</item>
+        <item>정신력 : 5</item>
+        <item>특이사항 : 플레이어의 온도를 올려준다</item>
+
+    </string-array>
+
+    <string-array name="ingr7">
+        <item>요리법 : 개구리다리 + 야채 0.5, 꿀,계란,만드레이크 금지</item>
+        <item>유통기한 : 15일</item>
+        <item>체력 : 20</item>
+        <item>허기 : 37.5</item>
+        <item>정신력 : 5</item>
+
+    </string-array>
+
+    <string-array name="ingr8">
+        <item>요리법 : 생선 0.5 + 나뭇가지 1, 나뭇가지 2개이상 금지</item>
+        <item>유통기한 : 10일</item>
+        <item>체력 : 40</item>
+        <item>허기 : 37.5</item>
+        <item>정신력 : 5</item>
+    </string-array>
+
+    <string-array name="ingr9">
+        <item>요리법 : 달걀1 + 고기 0.5 + 채소 0.5개, 나뭇가지, 두더지, 만드레이크 금지</item>
+        <item>유통기한 : 20일</item>
+        <item>체력 : 40</item>
+        <item>허기 : 37.5</item>
+        <item>정신력 : 5</item>
+    </string-array>
+
+    <string-array name="ingr10">
+        <item>요리법 : 나비 날개 1 + 채소 0.5, 고기, 만드레이크 금지</item>
+        <item>유통기한 : 15일</item>
+        <item>체력 : 20</item>
+        <item>허기 37.5</item>
+        <item>정신력 5</item>
+    </string-array>
+
+    <string name="text11">
+조건이 간단해 활용도가 높은 요리로, 고기류 하나만 들어간다면 남는 식재료들을 대충 넣어서 만들 수 있다.
+    </string>
+
+    <string name="text12">
+        단순히 얼음 3개를 넣어 허기 효율을 극도로 뽑아내는 것도 가능하고 괴물고기나 버섯같은 패널티가 있는 음식들을 멀쩡한 미트볼로 바꿔버리는 연금술(...)도 가능. 때문에 식품의 종류도 양도 부족한 초반에 자주 만들게 될 요리다.
+    </string>
+
+    <string name="text13">
+투게더에서는 먹는 입이 늘어나는것에 비해 필드의 식량은 싱글과 별 차이가 없으므로 어지간히 시설이 커지기 전까지는 질리도록 미트볼을 먹게 된다.
+    </string>
+    <string name="text14">
+    </string>
+    <string name="text15">
+    </string>
+    <string name="text16">
+    </string>
+    <string name="text17">
+    </string>
+
+    <string name="text21">
+        단순하게 고기를 3개나 요구하지만 그만큼 허기 회복량이 뛰어난 음식으로, 대부분의 캐릭터는 하나만 먹어도 허기 게이지가 풀로 찰 만큼 뛰어난 회복량을 가지고 있다.
+    </string>
+
+    <string name="text22">
+다만 괴물 고기를 한개 이상 넣을 수 없고 얼음등의 잡재료들을 많이 구해놨다면 그 고기들로 미트볼을 만드는게 이득이라 웨스 등의 허약한 캐릭터를 하거나 어드벤처 모드를 진행하는 등 빡센 플레이가 필요한 경우엔 외면받게 된다.
+    </string>
+
+    <string name="text23">
+회복량이 최대치를 채우고도 낭비할 정도로 높다는 것도 감점요소. 다만 볼프강만큼은 이 음식을 자주 먹게 될 것이다.
+    </string>
+
+    <string name="text24">
+
+    </string>
+
+    <string name="text25">
+    </string>
+
+    <string name="text26">
+    </string>
+
+    <string name="text27">
+    </string>
+
+    <string name="text31">
+        허기도 체력도 넉넉하게 채워주는 요리. 다만 꿀은 보통 한번에 많은 양을 얻으므로 고기를 나눠서 허니 너겟 여러개를 만드는 것이 체력 회복 면에서 낫다.
+    </string>
+
+    <string name="text32">
+    </string>
+
+    <string name="text33">
+    </string>
+
+    <string name="text34">
+    </string>
+
+    <string name="text35">
+    </string>
+
+    <string name="text36">
+    </string>
+
+    <string name="text37">
+    </string>
+
+    <string name="text38">
+    </string>
+
+    <string name="text41">
+사실상 밭을 운영하는 이유. 용과 하나만 넣으면 잔가지 3개를 넣어도 만들 수 있는 주제에 허기/체력 회복량도 높고 유통기한도 긴 최고의 요리다.
+    </string>
+
+    <string name="text42">
+         고기가 아니라 토끼인간이 선공하지도 않는다.위그는 못먹는다
+    </string>
+
+    <string name="text43">
+    </string>
+
+    <string name="text44">
+    </string>
+
+    <string name="text45">
+    </string>
+
+    <string name="text46">
+    </string>
+
+    <string name="text47">
+    </string>
+
+    <string name="text48">
+    </string>
+
+    <string name="text49">
+    </string>
+
+    <string name="text410">
+    </string>
+
+    <string name="text51">
+서양식 식사하면 생각날 법 한 베이컨 앤 에그다. 조합 조건이 조금 까다로워 양산은 힘들지만 긴 유통기한에 높은 허기 회복량을 가져 먼 거리를 이동할 때 비상식량으로 딱이다.
+
+
+    </string>
+
+    <string name="text52">
+    </string>
+    키다리새 알이 있다면 괴물 고기 두개+잔가지와 함께 넣어 만들수도 있어서 괴물 고기를 처리할 용도로 만들기도 한다.
+    <string name="text53">
+    </string>
+
+    <string name="text54">
+    </string>
+
+    <string name="text55">
+    </string>
+
+    <string name="text56">
+    </string>
+
+    <string name="text57">
+    </string>
+
+    <string name="text58">
+    </string>
+
+    <string name="text59">
+    </string>
+
+    <string name="text510">
+    </string>
+
+    <string name="text511">
+    </string>
+
+    <string name="text61">
+기본으로도 닭다리 두개가 들어가는 주제에 추가로 고기를 또 요구하고 나머지 칸도 과일/채소로 고정해야 하는 빡빡한 조건을 가지고 있다.
+    </string>
+
+    <string name="text62">
+        딱히 꼼수를 부릴 수도 없고 정직하게 식재료가 갈려나가기 때문에 만들 일은 거의 없다.
+    </string>
+
+    <string name="text63">
+    </string>
+
+    <string name="text64">
+    </string>
+
+    <string name="text65">
+    </string>
+
+    <string name="text66">
+    </string>
+
+    <string name="text67">
+    </string>
+
+    <string name="text68">
+    </string>
+
+    <string name="text69">
+    </string>
+
+    <string name="text71">
+조건만 보면 미트볼의 하위호환 같지만 체력 회복도 붙어있고 잔가지를 넣어 만들 수 있어서 개구리 다리+버섯+잔가지 두개 같은 조합이 가능하다.
+    </string>
+
+    <string name="text72">
+        잔가지를 하나만 넣으면 케밥이 나오므로 주의.
+    </string>
+
+    <string name="text73">
+    </string>
+
+    <string name="text74">
+    </string>
+
+    <string name="text75">
+    </string>
+
+    <string name="text76">
+    </string>
+
+    <string name="text77">
+    </string>
+
+    <string name="text78">
+    </string>
+
+    <string name="text79">
+    </string>
+
+    <string name="text710">
+    </string>
+
+    <string name="text81">
+생선만 잡을 수 있다면 나머지 재료들은 버섯, 얼음, 열매 등으로 대강대강 채워도 좋으며 생선 + 나뭇가지 + 괴물 고기 + 괴물 고기로 만들어도 몬스터 라자냐가 나오지 않는다.
+    </string>
+
+    <string name="text82">
+         주변에 연못이 있고 낚싯대도 만들어 두었다면 만들어두기 좋은 음식.  나뭇가지가 필요한건 물고기(fish) 와 나뭇가지(sticks)를 합친 말장난.
+    </string>
+
+    <string name="text83">
+    </string>
+
+    <string name="text84">
+    </string>
+
+    <string name="text85">
+    </string>
+
+    <string name="text86">
+    </string>
+
+    <string name="text87">
+    </string>
+
+    <string name="text88">
+    </string>
+
+    <string name="text91">
+체력 회복량이 높고 기한도 길어 우수하지만 일반적으로 새장의 새와 야채가 있어야 하기에 만들기는 비교적 까다롭다.
+
+    </string>
+
+    <string name="text92">
+        작은 고기 1 + 달걀 1 + 버섯 + 얼음이 이상적이다.
+    </string>
+
+    <string name="text93">
+    </string>
+
+    <string name="text94">
+    </string>
+
+    <string name="text95">
+    </string>
+
+    <string name="text96">
+    </string>
+
+    <string name="text97">
+    </string>
+
+    <string name="text101">
+        나비날개+버섯+나뭇가지 2개가 이상적이다. 나비날개 전용요리.
+    </string>
+
+    <string name="text102">
+    </string>
+
+    <string name="text103">
+    </string>
+
+    <string name="text104">
+    </string>
+
+    <string name="text105">
+    </string>
+
+    <string name="text106">
+    </string>
+
+    <string name="text107">
+    </string>
+
+    <string name="text108">
+    </string>
+
+    <string name="text109">
+    </string>
+
+</resources>
